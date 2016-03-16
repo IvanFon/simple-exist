@@ -1,0 +1,25 @@
+{
+  "name": "simple-exist",
+  "version": "1.0.0",
+  "description": "Simple functions to check if a file exists in both sync and async using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porso7/simple-exist.git"
+  },
+  "keywords": [
+    "file",
+    "exist",
+    "simple",
+    "memes"
+  ],
+  "author": "Ivan Fonseca <ivanfonseca55@gmail.com> (ivanfonseca.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Porso7/simple-exist/issues"
+  },
+  "homepage": "https://github.com/Porso7/simple-exist#readme"
+}
