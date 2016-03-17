@@ -1,5 +1,5 @@
 // Require the simple-exist module
-var exists = require('simple-exist');
+var exists = require('./index.js');
 
 // Synchronous example
 // Check if the file exists and log if it does
