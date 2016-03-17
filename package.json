@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/Porso7/simple-exist/issues"
   },
-  "homepage": "https://github.com/Porso7/simple-exist#readme"
+  "homepage": "https://github.com/Porso7/simple-exist#readme",
+  "tonicExampleFilename": "example.js"
 }
