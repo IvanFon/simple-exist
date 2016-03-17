@@ -1,10 +1,10 @@
 {
   "name": "simple-exist",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple functions to check if a file exists in both sync and async using Node.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node example"
   },
   "repository": {
     "type": "git",
