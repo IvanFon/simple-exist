@@ -3,7 +3,7 @@ var exists = require('simple-exist');
 
 // Synchronous example
 // Check if the file exists and log if it does
-if(exists.existsSync("file.txt") {
+if(exists.existsSync("file.txt")) {
     console.log("File exists!");
 } else {
     console.log("File doesn't exist!");
