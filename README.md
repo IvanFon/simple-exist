@@ -10,7 +10,7 @@ Works synchronously. Pass in the filename as a string. The function will return 
 ```Javascript
 var exists = require('simple-exist');
 
-if(exists.existsSync("file.txt") {
+if(exists.existsSync("file.txt")) {
     console.log("File exists!");
 } else {
     console.log("File doesn't exist!");
