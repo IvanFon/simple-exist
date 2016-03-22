@@ -1,6 +1,12 @@
 # simple-exist [![Build Status](https://travis-ci.org/Porso7/simple-exist.svg?branch=master)](https://travis-ci.org/Porso7/simple-exist)
 Simple functions to check if a file exists in both sync and async using Node.js.
 
+## Installation
+
+Run the command ```npm install simple-exist```.
+The NPM package is located [here](https://www.npmjs.com/package/simple-exist), and the source code can be found
+on Github [here](https://github.com/Porso7/simple-exist).
+
 ## Usage
 
 ### existsSync(file);
@@ -33,3 +39,9 @@ exists.exists("file.txt", function(data) {
     }
 });
 ```
+
+## Contact Me
+
+Found a bug? File an issue on the [Github repo](https://github.com/Porso7/simple-exist/issues).
+
+If you need help you can email me at ivanfonseca55(AT)gmail(DOT)com.
