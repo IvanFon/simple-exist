@@ -1,4 +1,4 @@
-# simple-exist [![Build Status](https://travis-ci.org/Porso7/simple-exist.svg?branch=master)](https://travis-ci.org/Porso7/simple-exist)
+# simple-exist [![Build Status](https://travis-ci.org/IvanFon/simple-exist.svg?branch=master)](https://travis-ci.org/IvanFon/simple-exist)
 Simple functions to check if a file exists in both sync and async using Node.js.
 
 ## Installation
