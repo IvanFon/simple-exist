@@ -1,8 +1,6 @@
-// Use filesystem
 var fs = require("fs");
 
-// Asynchronous
-module.exports.exists = function(file, callback) {
+function asyncExist(file, callback) {
     fs.stat(file, function(err, stat) {
         if (err === null) {
             // Exists
@@ -17,8 +15,7 @@ module.exports.exists = function(file, callback) {
     });
 };
 
-// Synchronous
-module.exports.existsSync = function(file) {
+function syncExist(file) {
     try {
         // Returns true if exists
         return fs.statSync(file).isFile();
@@ -26,4 +23,13 @@ module.exports.existsSync = function(file) {
         // Doesn't exist
         return false;
     }
-};
+}
+
+// main function
+module.exports = syncExist;
+
+// Asynchronous
+module.exports.exists = asyncExist;
+
+// Synchronous
+module.exports.existsSync = syncExist;
