@@ -1,0 +1,15 @@
+{
+  "name": "simple-exist",
+  "version": "2.0.0",
+  "description": "Simple functions to check if a file exists in both sync and async.",
+  "main": "index.js",
+  "repository": "https://github.com/IvanFon/simple-exist.git",
+  "author": "Ivan Fonseca <ivanfon@riseup.net>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
